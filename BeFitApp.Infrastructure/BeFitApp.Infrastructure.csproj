@@ -8,13 +8,17 @@
 
   <ItemGroup>
     <None Remove="Data\" />
-    <None Remove="Migrations\" />
     <None Remove="Microsoft.EntityFrameworkCore.SqlServer" />
     <None Remove="Microsoft.EntityFrameworkCore.Tools" />
     <None Remove="Microsoft.AspNetCore.Identity.EntityFrameworkCore" />
+    <None Remove="Data\Models\" />
+    <None Remove="Data\Configuration\" />
+    <None Remove="Migrations\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Data\" />
+    <Folder Include="Data\Models\" />
+    <Folder Include="Data\Configuration\" />
     <Folder Include="Migrations\" />
   </ItemGroup>
   <ItemGroup>
